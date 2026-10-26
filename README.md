@@ -93,6 +93,15 @@ Save routes for later with a route thumbnail, distance and saved cycling POIs.
 Saved routes reopen without a new route request.
 Offline maps and new routing depend on the datasets available on the device.
 
+<h2>Offline maps</h2>
+
+<img src="offline-map.jpeg" width="280" alt="Offline maps screen showing the bundled Hessen map awaiting preparation">
+
+Prepare the bundled Hessen map for offline use.
+This screenshot shows the map before preparation.
+Other listed regions are not bundled in this demo.
+Offline routing is limited to supported pilot datasets.
+
 ## Features
 
 - Account registration and login
