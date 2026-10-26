@@ -20,7 +20,30 @@ The application source code is private.
 - **Download size:** approximately 49 MB
 - **Region:** Germany
 - Runs without Metro, USB or a PC connection
-- Internet is required for account services and online features
+ Internet is required for account services and online features
+ <h2>App screenshots</h2>
+
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Route preview</th>
+  </tr>
+  <tr>
+    <td><img src="Home.jpeg" width="280" alt="CycleNav home screen"></td>
+    <td><img src="Route%20preview.jpeg" width="280" alt="Cycling route preview in Hanau"></td>
+  </tr>
+  <tr>
+    <th>Simulation — satellite</th>
+    <th>Simulation — map</th>
+  </tr>
+  <tr>
+    <td><img src="simulation-satellite.jpeg" width="280" alt="Navigation simulation with satellite imagery"></td>
+    <td><img src="simulation-map.jpeg" width="280" alt="Navigation simulation with the standard map"></td>
+  </tr>
+</table>
+
+Navigation screenshots show ride simulation.
+Traffic-signal markers indicate mapped locations; live phases are unavailable.
 
 ## Features
 
