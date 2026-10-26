@@ -41,9 +41,32 @@ The application source code is private.
     <td><img src="simulation-map.jpeg" width="280" alt="Navigation simulation with the standard map"></td>
   </tr>
 </table>
-
 Navigation screenshots show ride simulation.
 Traffic-signal markers indicate mapped locations; live phases are unavailable.
+
+<h2>Live location sharing</h2>
+<table>
+  <tr>
+    <th>Live Share</th>
+    <th>Location preview</th>
+  </tr>
+  <tr>
+    <td><img src="live-share.jpeg" width="280" alt="Live location sharing screen"></td>
+    <td><img src="live-share-preview.jpeg" width="280" alt="Location preview and viewer status"></td>
+  </tr>
+  <tr>
+    <th>Sharing controls</th>
+    <th>Browser viewer</th>
+  </tr>
+  <tr>
+    <td><img src="live-share-controls.jpeg" width="280" alt="Restart GPS and stop sharing controls"></td>
+    <td><img src="live-share-viewer.jpeg" width="280" alt="Shared location displayed in a browser"></td>
+  </tr>
+</table>
+
+Live sharing was tested in Raiganj, India.
+Cycling and transit features are intended for Germany.
+Viewer names are self-reported; online status indicates a connected browser.
 
 ## Features
 
