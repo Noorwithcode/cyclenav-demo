@@ -68,6 +68,23 @@ Live sharing was tested in Raiganj, India.
 Cycling and transit features are intended for Germany.
 Viewer names are self-reported; online status indicates a connected browser.
 
+<h2>Transit</h2>
+
+<table>
+  <tr>
+    <th>Find a stop</th>
+    <th>Departures</th>
+  </tr>
+  <tr>
+    <td><img src="transit-map.jpeg" width="280" alt="Transit stop search and map in Frankfurt"></td>
+    <td><img src="transit-departures.jpeg" width="280" alt="Bus departures from Hanau Barbarossastraße"></td>
+  </tr>
+</table>
+
+Find stops on the map and view departures by direction.
+Departure times are displayed in Germany time.
+Availability and delay information depend on the transit provider.
+
 ## Features
 
 - Account registration and login
