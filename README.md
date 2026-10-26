@@ -1,2 +1,122 @@
-# cyclenav-demo
-CycleNav+ Android app demo, screenshots and APK downloads. Source code is private.
+# CycleNav+
+
+### Cycling and transit navigation for Germany
+
+CycleNav+ is an Android app built specifically for cycling and
+transit in Germany. It combines route planning, turn-by-turn
+navigation, selected offline features and live location sharing.
+
+This public repository contains demo information and APK downloads.
+The application source code is private.
+
+## Download the Android demo
+
+[![Download APK](https://img.shields.io/badge/Download-Android_APK-16875e?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Noorwithcode/cyclenav-demo/releases/download/v1.0.0/CycleNav-Plus-v1.0.0-arm64.apk)
+
+[View release notes](https://github.com/Noorwithcode/cyclenav-demo/releases/tag/v1.0.0)
+
+- **Version:** 1.0.0 — demo / pre-release
+- **Platform:** Android, ARM64 devices only
+- **Download size:** approximately 49 MB
+- **Region:** Germany
+- Runs without Metro, USB or a PC connection
+- Internet is required for account services and online features
+
+## Features
+
+- Account registration and login
+- Cycling route preview and turn-by-turn navigation
+- Ride simulation, off-route detection and rerouting
+- Selected-route traffic-signal location markers
+- Cycling points of interest
+- Saved routes and offline maps
+- Pilot offline routing for supported datasets
+- Transit planning and fullscreen maps
+- Live location sharing with a browser-based viewer
+- Viewer names and connection status
+- Dark mobile interface
+
+## Install and try
+
+1. Download the APK using the button above.
+2. Open it on a compatible ARM64 Android device.
+3. Allow installation from your browser or file manager if Android asks.
+4. Install and open CycleNav+.
+5. Register an account and log in.
+6. Select a supported location in Germany to explore route planning.
+7. Allow location access when using navigation.
+8. For background live sharing, allow background location access.
+
+Cycling routes, transit services and offline routing datasets are
+intended for Germany. Turn-by-turn navigation requires an appropriate
+GPS position near the selected route.
+
+Background location behavior can vary with Android battery settings
+and device restrictions.
+
+## Try live location sharing
+
+1. Open Live Share in the mobile app.
+2. Start sharing and wait for a confirmed location upload.
+3. Copy the generated viewer link.
+4. Open the link in another browser or device.
+5. Enter a display name and accept the invitation.
+6. Stop Sharing in the app to close viewer access.
+
+Viewer links provide access to the shared location until the share
+expires or is stopped. Share them only with intended viewers.
+
+Viewer names are self-reported. Online status indicates a connected
+browser, not confirmation that someone is watching.
+
+The viewer website displays shared locations. The full cycling and
+transit experience is available in the Android app.
+
+## Germany coverage and limitations
+
+- Cycling and transit support is limited to Germany.
+- Feature availability varies by city, provider and dataset.
+- Cloud cycling POIs currently cover Frankfurt and Hanau.
+- The OSM traffic-signal catalog contains 5,586 mapped locations
+  across Frankfurt and Hanau.
+- Traffic-signal markers show locations, not live phases or countdowns.
+- Geometric signal matching does not establish lane-specific ownership.
+- Offline routing is limited to supported pilot datasets and contexts.
+- Offline features require the relevant datasets to be available
+  on the device.
+- POIs elsewhere in Germany require the configured local backend.
+- AI guide availability depends on the backend AI provider.
+- Online features depend on backend availability and provider quotas.
+
+## Technology
+
+| Component | Technologies |
+|---|---|
+| Mobile app | React Native, Expo, TypeScript |
+| Mobile maps | MapLibre |
+| Backend | NestJS |
+| Database | PostgreSQL, PostGIS |
+
+## Feedback
+
+Report demo issues through this repository's
+[Issues page](https://github.com/Noorwithcode/cyclenav-demo/issues).
+
+Include your device model, Android version and steps to reproduce.
+For routing issues, include the German city and public start/destination
+places used for testing.
+
+Do not include passwords, access tokens, home addresses or active
+location-sharing links.
+
+## Source code
+
+The mobile application and backend source code are maintained in
+a separate private repository. This repository provides the public
+demo and Android downloads.
+
+## Attribution
+
+Map data includes © OpenStreetMap contributors.
+Online routing uses openrouteservice where configured.
+Home photo credits are displayed in the app.
