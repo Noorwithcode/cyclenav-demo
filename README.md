@@ -85,6 +85,14 @@ Find stops on the map and view departures by direction.
 Departure times are displayed in Germany time.
 Availability and delay information depend on the transit provider.
 
+<h2>Saved routes</h2>
+
+<img src="saved-routes.jpeg" width="280" alt="Saved cycling route from Hanau to Klinikum Hanau">
+
+Save routes for later with a route thumbnail, distance and saved cycling POIs.
+Saved routes reopen without a new route request.
+Offline maps and new routing depend on the datasets available on the device.
+
 ## Features
 
 - Account registration and login
