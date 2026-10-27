@@ -102,6 +102,23 @@ This screenshot shows the map before preparation.
 Other listed regions are not bundled in this demo.
 Offline routing is limited to supported pilot datasets.
 
+<h2>AI route guide</h2>
+
+<table>
+  <tr>
+    <th>Ask about your route</th>
+    <th>Spoken route answer</th>
+  </tr>
+  <tr>
+    <td><img src="ai-guide.jpeg" width="280" alt="CycleNav AI voice question interface during navigation simulation"></td>
+    <td><img src="ai-guide-answer.jpeg" width="280" alt="CycleNav AI answering a next-turn question during navigation simulation"></td>
+  </tr>
+</table>
+
+Ask route questions by voice and hear spoken guidance.
+These screenshots show navigation simulation and a route-snapshot answer.
+AI provider availability and response times may vary.
+
 ## Features
 
 - Account registration and login
